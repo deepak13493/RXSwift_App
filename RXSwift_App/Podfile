@@ -8,6 +8,7 @@ target 'RXSwift_App' do
   # Pods for RXSwift_App
     pod 'RxSwift'
     pod 'RxCocoa'
+    pod 'Moya/RxSwift'
 
   target 'RXSwift_AppTests' do
     inherit! :search_paths
